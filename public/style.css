@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Futura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+body {
+  font-family: "Roboto Slab", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e5dbff;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f3f0ff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-image img {
+  max-width: 200px;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-text {
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: "Futura", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #5f3dc4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.fa-linkedin {
+  color: #6741d9;
+  margin-right: 5px;
+}
+
+.section {
+  margin-top: 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #e5dbff;
+}
+.section-resume {
+  margin-top: 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #e5dbff;
+}
+
+.project {
+  height: 50%;
+  align-items: center;
+}
+h3 {
+  font-style: oblique;
+  color: #5f3dc4;
+}
+.h3 {
+  font-weight: bold;
+  color: #5f3dc4;
+}
+.h4 {
+  font-style: oblique;
+  color: #5f3dc4;
+}
+/* style.css */
+
+/* style.css */
+
+/* Style for the download button */
+.download-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.download-button:hover {
+  background-color: #2980b9;
+}
+
+/* Optional: Add margin or spacing around the button */
+.section-resume {
+  margin-top: 20px;
+}
+.profile-figure {
+  max-width: 100%; /* Adjust the maximum width of the figure */
+  margin: 0 auto; /* Center the figure horizontally */
+}
+
+.profile-figure img {
+  max-width: 100%;
+  height: auto;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .profile-image {
+    margin-bottom: 0;
+  }
+
+  .profile-text {
+    text-align: left;
+  }
+}
